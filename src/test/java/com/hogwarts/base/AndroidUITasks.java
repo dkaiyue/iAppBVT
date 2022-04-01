@@ -31,7 +31,7 @@ public class AndroidUITasks {
      * @throws UINotFoundException
      */
     private static List<WebElement> findObjectsByXPath(String xpath, AppiumDriver driver) throws UINotFoundException {
-        return findObjectsByXPath(xpath, driver, 5);
+        return findObjectsByXPath(xpath, driver, 15);
     }
 
     /**
